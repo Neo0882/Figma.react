@@ -1,0 +1,26 @@
+.inform{
+    display: flex;
+    gap: 90px;
+    text-align: left;
+    justify-content: center;
+   
+}
+footer{
+    border-top: 1px solid   #E5E5E5;
+    margin-top: 50px;
+    font-family: poppins;
+}
+.stay{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.iconss{
+    display: flex;
+    gap: 10px;
+}
+.all{
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+}

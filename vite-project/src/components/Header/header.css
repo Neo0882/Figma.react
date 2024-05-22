@@ -1,0 +1,78 @@
+
+.nav{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: poppins;
+    width: 100%;
+    justify-content: space-between;
+}
+.info{
+    display: flex;
+    gap: 100px;
+    font-family: poppins;
+    max-width: 700px;
+    width: 100%;
+    justify-content: space-between;
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+
+.burger__btn {
+    display: none;
+    @media (max-width: 768px) {
+        display: block;
+    }
+}
+.welcome-info{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    padding: 60px;
+    gap: 20px;
+    font-family: poppins;
+    color: white;
+    h1{
+        font-size: 50px;
+        font-weight: 700px;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        font-size: 17px;
+    }
+}
+.buttons{
+    width: 150px;
+    height: 50px;
+    border-radius: 28px;
+    background: #3043A9 100%;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-family: poppins;
+}
+.us{
+    width: 150px;
+    height: 50px;
+    border-radius: 28px;
+    cursor: pointer; 
+    background: none;
+    color: white;
+    border: 1px solid #fff;
+    font-family: poppins;
+}
+.btn{
+    display: flex;
+    gap: 20px;
+}
+.img{
+    margin-left: 100px;
+    border-radius: 10px;
+}
+header{
+    background: 
+    #161D2F;
+}

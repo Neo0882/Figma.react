@@ -1,0 +1,48 @@
+.banner{
+    width: 1110px;
+    height: 400px;
+    background: #161D2F;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    padding: 50px;
+    font-family: poppins;
+}
+.member{
+    
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    h1{
+        font-size: 40px;
+    }
+}
+.inp{
+    display: flex;
+    gap: 10px;
+    input{
+        width: 270px;
+        height: 50px;
+        border-radius: 34px;
+        text-align: left;
+        padding: 10px;
+        border: 1px solid #fff;
+        background: none;
+        color: #fff;
+    }
+    button{
+        width: 150px;
+    height: 50px;
+    border-radius: 28px;
+    background: #3043A9 100%;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-family: poppins;
+    }
+}

@@ -1,0 +1,61 @@
+.programs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 17px;
+    margin: 0 auto;
+    font-family: poppins;
+}
+.we{
+    text-align: center;
+    font-size: 40px;
+}
+.cards{
+    display: flex;
+    gap: 40px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.card img{
+    width: 350px;
+    height: 240px;
+    border-radius: 10px;
+}
+.check{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #3043A9;
+    img{
+        width: 17px;
+        height: 12px;
+    }
+}
+.workout{
+    padding: 165px 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: poppins;
+}
+
+.nutr{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    h1{
+        font-size: 40px;
+    }
+    button{
+        width: 150px;
+        height: 50px;
+        border-radius: 28px;
+        background: #3043A9 100%;
+        color: white;
+        cursor: pointer;
+        border: none;
+    }
+}

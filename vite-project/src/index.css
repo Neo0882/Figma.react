@@ -11,7 +11,20 @@
   width: 100%;
   margin: 0 auto;
   padding: 22px 0;
+}
+@media (max-width: 1110px) {
+  .container{
+      max-width: 970px;
+  }
   
-
-
+}
+@media (max-width: 900px) {
+  .workout{
+    flex-direction: column;
+  }
+}
+@media (max-width: 900px) {
+  .banner{
+    flex-direction: column;
+  }
 }

@@ -45,7 +45,7 @@ const Section_1 = () => {
 
                 <div className="workout">
                   <div className="imgss">
-                    <img src="img-8.png" alt="" />
+                    <img className='imagesss' src="img-8.png" alt="" />
                   </div>
                     <div className="nutr">
                         <p>NUTRITIONS</p>

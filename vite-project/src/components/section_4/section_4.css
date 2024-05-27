@@ -1,6 +1,6 @@
 .banner{
-    width: 1110px;
-    height: 400px;
+    max-width: 1110px;
+    width: 100%;
     background: #161D2F;
     border-radius: 20px;
     margin: 0 auto;

@@ -35,6 +35,9 @@
     place-items: center;
     gap: 40px;
     width: 100%;
+    @media (max-width:900px) {
+        flex-direction: column;
+    }
     .card{
         text-align: center;
         max-width: 330px;
